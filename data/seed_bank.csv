@@ -1,0 +1,401 @@
+crop_type,variety_name,company,yield_potential,price_kg,suitable_regions,disease_resistance,special_features
+Wheat,Elite WHE301,IFFCO,4.92,54.04,"Maharashtra, Odisha",High,"High Protein Content, Flood Resistant, High Sugar Recovery"
+Chickpea,Super CHI562,Advanta,7.15,115.39,"Tamil Nadu, Gujarat",Moderate,Early Maturing
+Potato,Pro POT445,Monsanto,4.74,102.83,"Odisha, Maharashtra",High,"Early Maturing, High Oil Content"
+Pea,Gold PEA310,Advanta,5.61,69.05,"Madhya Pradesh, Haryana, Rajasthan, Gujarat",Moderate,Drought Tolerant
+Rice,Super RIC442,Syngenta,6.02,108.22,"Bihar, West Bengal",Moderate,"High Sugar Recovery, High Protein Content, Flood Resistant"
+Chickpea,Super CHI441,Advanta,7.58,31.84,"West Bengal, Gujarat, Telangana",Low,"Early Maturing, Good Milling Quality, Export Quality"
+Groundnut,Hybrid GRO533,Mahyco,3.46,58.92,"Telangana, Gujarat, Tamil Nadu",High,Drought Tolerant
+Mustard,Ultra MUS356,Bayer CropScience,4.1,91.71,"Punjab, Gujarat, Bihar",High,"Early Maturing, Export Quality, Pest Resistant"
+Barley,Prime BAR996,Bayer CropScience,7.82,24.15,"Telangana, Gujarat, Bihar",Low,High Sugar Recovery
+Groundnut,Super GRO165,Syngenta,5.21,20.38,"Karnataka, Odisha, Bihar, Kerala",High,"High Protein Content, Early Maturing"
+Onion,Plus ONI610,Rasi Seeds,2.77,39.59,"Gujarat, Odisha, West Bengal, Rajasthan",High,"High Oil Content, Drought Tolerant, High Sugar Recovery"
+Wheat,Hybrid WHE793,IFFCO,4.67,118.4,"Tamil Nadu, Karnataka",Moderate,Heat Tolerant
+Tomato,Super TOM943,Monsanto,3.33,71.37,"Bihar, Uttar Pradesh, Telangana, Rajasthan",High,"Pest Resistant, Flood Resistant, High Sugar Recovery"
+Pea,Elite PEA316,Bayer CropScience,4.76,104.66,"West Bengal, Telangana, Madhya Pradesh, Bihar",Low,"Flood Resistant, High Protein Content, Export Quality"
+Rice,Super RIC707,IFFCO,7.51,82.08,"Kerala, Odisha, West Bengal",Low,High Oil Content
+Pulses,Plus PUL599,Monsanto,6.75,103.31,"Tamil Nadu, Gujarat",Low,Export Quality
+Mustard,Hybrid MUS312,Advanta,4.43,44.78,"Haryana, Uttar Pradesh, Andhra Pradesh",High,"Export Quality, Pest Resistant"
+Groundnut,Super GRO212,Monsanto,6.79,88.39,"Punjab, Kerala",Moderate,"Early Maturing, Pest Resistant"
+Cotton,Prime COT252,Syngenta,6.56,52.66,"Bihar, Haryana, Madhya Pradesh",Low,Early Maturing
+Barley,Max BAR441,Bayer CropScience,7.34,31.09,"Maharashtra, Gujarat, Kerala, Rajasthan",Low,High Oil Content
+Wheat,Max WHE411,Mahyco,5.27,42.21,"West Bengal, Bihar, Andhra Pradesh, Punjab",High,"Flood Resistant, High Sugar Recovery, High Oil Content"
+Pulses,Super PUL637,Bayer CropScience,3.12,36.28,"Kerala, West Bengal, Rajasthan",Low,"Pest Resistant, Heat Tolerant, High Protein Content"
+Potato,Plus POT913,Rasi Seeds,3.13,49.98,"Telangana, Maharashtra, Odisha",Moderate,"Pest Resistant, High Oil Content"
+Wheat,Hybrid WHE326,Rasi Seeds,4.93,60.94,"Kerala, Madhya Pradesh, Andhra Pradesh",Low,"Early Maturing, Good Milling Quality"
+Pulses,Ultra PUL213,Pioneer,5.22,25.7,"Madhya Pradesh, Tamil Nadu, Uttar Pradesh, Andhra Pradesh",Moderate,Export Quality
+Sunflower,Pro SUN386,Mahyco,2.8,30.93,"Haryana, Odisha, West Bengal",Low,"High Sugar Recovery, Drought Tolerant"
+Potato,Prime POT384,Syngenta,2.71,70.47,"Kerala, Telangana, Karnataka, Gujarat",High,"Export Quality, Flood Resistant"
+Wheat,Pro WHE146,Mahyco,4.83,60.54,"Andhra Pradesh, Karnataka, Punjab",Low,Good Milling Quality
+Banana,Super BAN526,Syngenta,6.86,51.84,"Maharashtra, Telangana, Odisha, Uttar Pradesh",Low,"Early Maturing, Good Milling Quality, Export Quality"
+Rice,Max RIC213,Mahyco,3.48,46.66,"Madhya Pradesh, Odisha",High,"Drought Tolerant, Heat Tolerant, Early Maturing"
+Soybean,Plus SOY544,Monsanto,5.09,36.87,"Haryana, Gujarat, West Bengal",Moderate,"High Protein Content, Early Maturing, Pest Resistant"
+Pea,Prime PEA518,Mahyco,3.1,23.71,"Odisha, Punjab",Moderate,"High Protein Content, High Oil Content, Heat Tolerant"
+Barley,Prime BAR347,Pioneer,5.97,38.41,"Gujarat, Tamil Nadu, Telangana, Rajasthan",Moderate,"Drought Tolerant, Good Milling Quality, Pest Resistant"
+Groundnut,Super GRO960,Pioneer,5.47,57.91,"Punjab, Madhya Pradesh, Tamil Nadu, Rajasthan",Moderate,Export Quality
+Sorghum,Max SOR446,Kaveri Seeds,6.76,56.19,"Maharashtra, Madhya Pradesh",Low,"Export Quality, High Oil Content"
+Groundnut,Elite GRO383,Bayer CropScience,6.87,117.65,"Punjab, Andhra Pradesh, Bihar, Gujarat",Moderate,"High Sugar Recovery, Export Quality, Flood Resistant"
+Groundnut,Prime GRO895,Advanta,4.84,54.78,"Gujarat, Madhya Pradesh",High,"Pest Resistant, Early Maturing, High Sugar Recovery"
+Groundnut,Elite GRO101,Rasi Seeds,4.73,40.34,"Madhya Pradesh, Punjab, Bihar, West Bengal",Low,"High Oil Content, Heat Tolerant, Export Quality"
+Sunflower,Max SUN447,Nuziveedu Seeds,6.06,24.46,"Punjab, West Bengal, Karnataka",High,"High Protein Content, Export Quality"
+Mustard,Gold MUS764,Monsanto,6.78,59.2,"Gujarat, West Bengal, Rajasthan, Tamil Nadu",Moderate,"Heat Tolerant, High Oil Content, Flood Resistant"
+Millet,Prime MIL626,Syngenta,4.19,87.22,"Haryana, West Bengal, Kerala",Moderate,"Pest Resistant, Drought Tolerant"
+Cotton,Super COT327,IFFCO,6.2,36.25,"Maharashtra, Telangana",Moderate,"High Oil Content, Flood Resistant"
+Mustard,Max MUS474,Monsanto,5.58,105.61,"Maharashtra, Haryana, West Bengal, Punjab",High,High Sugar Recovery
+Onion,Super ONI438,Pioneer,7.89,65.86,"Bihar, Haryana",Low,High Oil Content
+Mustard,Max MUS704,Pioneer,6.85,32.28,"Rajasthan, Andhra Pradesh, Punjab, Maharashtra",High,"High Protein Content, Good Milling Quality"
+Cotton,Prime COT352,Syngenta,7.83,97.99,"Bihar, Karnataka, Gujarat, Odisha",High,"Heat Tolerant, Export Quality, Good Milling Quality"
+Potato,Pro POT911,Pioneer,4.32,98.75,"Madhya Pradesh, Tamil Nadu",Moderate,"High Sugar Recovery, Early Maturing"
+Onion,Pro ONI799,Syngenta,5.06,100.84,"Madhya Pradesh, West Bengal, Kerala",Moderate,"High Protein Content, Drought Tolerant, Export Quality"
+Sugarcane,Ultra SUG332,Mahyco,6.14,113.89,"West Bengal, Bihar",Moderate,"High Oil Content, Drought Tolerant, Pest Resistant"
+Banana,Prime BAN890,IFFCO,3.55,73.08,"Odisha, Maharashtra",High,"Early Maturing, High Protein Content"
+Pulses,Hybrid PUL167,Pioneer,2.97,108.67,"Karnataka, Kerala, Madhya Pradesh",Moderate,Pest Resistant
+Barley,Hybrid BAR276,Bayer CropScience,7.08,116.96,"Karnataka, Gujarat, Madhya Pradesh",Low,"Export Quality, High Oil Content"
+Mustard,Super MUS759,Advanta,7.49,118.7,"Rajasthan, Andhra Pradesh, Telangana",Low,"Early Maturing, Pest Resistant"
+Pulses,Ultra PUL674,Nuziveedu Seeds,5.25,20.89,"Rajasthan, Bihar, Madhya Pradesh",High,Export Quality
+Tea,Gold TEA323,Bayer CropScience,4.56,101.25,"Rajasthan, Maharashtra, Telangana",Low,High Protein Content
+Wheat,Prime WHE586,IFFCO,3.78,50.93,"Bihar, Gujarat, Maharashtra, Rajasthan",High,"Pest Resistant, Early Maturing, Export Quality"
+Sugarcane,Super SUG602,Bayer CropScience,4.89,41.24,"Maharashtra, West Bengal",Moderate,Drought Tolerant
+Soybean,Max SOY766,Bayer CropScience,5.87,50.07,"Gujarat, Punjab, Haryana, Bihar",Moderate,"Heat Tolerant, High Oil Content, Pest Resistant"
+Wheat,Ultra WHE947,Mahyco,2.82,79.95,"Haryana, Madhya Pradesh, Kerala, West Bengal",Moderate,"Pest Resistant, Flood Resistant"
+Pulses,Pro PUL876,IFFCO,3.96,92.47,"Rajasthan, Bihar",High,"Good Milling Quality, Early Maturing"
+Chickpea,Pro CHI472,Kaveri Seeds,2.73,111.71,"Gujarat, Odisha, Telangana, Maharashtra",Low,Heat Tolerant
+Tea,Hybrid TEA998,Syngenta,5.52,77.75,"Andhra Pradesh, Bihar, Telangana",Low,"High Protein Content, High Sugar Recovery"
+Sunflower,Ultra SUN704,Kaveri Seeds,2.83,49.14,"Maharashtra, Madhya Pradesh, Bihar, West Bengal",Moderate,"Drought Tolerant, Early Maturing"
+Chickpea,Gold CHI103,Bayer CropScience,2.52,76.56,"Uttar Pradesh, Kerala, Karnataka",High,High Protein Content
+Pea,Super PEA748,Monsanto,6.82,69.34,"Telangana, Tamil Nadu",Moderate,"Good Milling Quality, High Oil Content"
+Wheat,Pro WHE716,Pioneer,2.7,84.44,"Punjab, Karnataka",High,"Heat Tolerant, Early Maturing, High Oil Content"
+Onion,Pro ONI151,Mahyco,5.01,103.1,"Haryana, Odisha",Low,"High Protein Content, Export Quality, High Sugar Recovery"
+Barley,Pro BAR320,Monsanto,5.9,32.12,"Uttar Pradesh, Bihar",Low,Flood Resistant
+Pulses,Prime PUL379,Nuziveedu Seeds,3.3,100.3,"Punjab, Telangana",Low,"Good Milling Quality, High Oil Content, Drought Tolerant"
+Tea,Gold TEA959,Mahyco,7.68,27.7,"Maharashtra, Madhya Pradesh, Andhra Pradesh",Low,"Flood Resistant, Good Milling Quality"
+Sorghum,Elite SOR673,Syngenta,3.2,69.22,"Kerala, Karnataka",Low,"Flood Resistant, Early Maturing, High Sugar Recovery"
+Sugarcane,Gold SUG928,Advanta,5.92,47.71,"Kerala, Uttar Pradesh, Punjab",Moderate,"Pest Resistant, Good Milling Quality, Early Maturing"
+Tomato,Max TOM720,Syngenta,7.21,36.78,"Tamil Nadu, Maharashtra, West Bengal, Gujarat",Moderate,"Flood Resistant, High Protein Content, Early Maturing"
+Pulses,Plus PUL419,Nuziveedu Seeds,2.64,103.61,"Madhya Pradesh, Telangana, Rajasthan, Uttar Pradesh",Low,"Early Maturing, Heat Tolerant"
+Sorghum,Hybrid SOR436,IFFCO,5.32,94.27,"Gujarat, Rajasthan, Haryana",Moderate,"Pest Resistant, Good Milling Quality"
+Rice,Hybrid RIC457,Pioneer,4.78,22.88,"Kerala, Andhra Pradesh",High,"High Oil Content, High Sugar Recovery, Flood Resistant"
+Sunflower,Super SUN159,Nuziveedu Seeds,4.23,24.67,"Telangana, Punjab, Haryana",Low,High Sugar Recovery
+Maize,Elite MAI268,Syngenta,3.71,25.14,"Maharashtra, Karnataka, West Bengal",High,High Oil Content
+Rice,Prime RIC180,Bayer CropScience,5.7,109.19,"Karnataka, Tamil Nadu",Moderate,"High Protein Content, Early Maturing, Drought Tolerant"
+Mustard,Gold MUS715,Mahyco,7.39,99.15,"Odisha, Punjab, Karnataka, Uttar Pradesh",High,"Heat Tolerant, Good Milling Quality"
+Potato,Ultra POT144,Kaveri Seeds,7.14,80.56,"Bihar, Kerala",Low,Pest Resistant
+Onion,Plus ONI775,Kaveri Seeds,7.12,54.15,"Bihar, West Bengal, Rajasthan",Low,"Drought Tolerant, High Oil Content"
+Rice,Super RIC770,Pioneer,3.74,42.42,"Kerala, Gujarat",High,"Early Maturing, Export Quality"
+Tea,Gold TEA459,Kaveri Seeds,7.48,36.9,"Telangana, Rajasthan, West Bengal",Low,"Drought Tolerant, Good Milling Quality"
+Rice,Ultra RIC631,Monsanto,3.46,54.84,"Telangana, Tamil Nadu, Rajasthan",Low,Heat Tolerant
+Barley,Plus BAR616,Rasi Seeds,3.25,64.76,"Uttar Pradesh, Odisha, Haryana, Rajasthan",Low,"Flood Resistant, Export Quality"
+Mustard,Pro MUS879,Monsanto,6.24,107.06,"West Bengal, Karnataka",Low,"Pest Resistant, Early Maturing"
+Pea,Ultra PEA152,Mahyco,3.49,87.22,"Uttar Pradesh, Punjab, Rajasthan",Low,"Pest Resistant, Export Quality"
+Rice,Super RIC522,Mahyco,6.99,111.15,"Haryana, Telangana, Tamil Nadu",Moderate,"Heat Tolerant, Good Milling Quality, Flood Resistant"
+Sorghum,Gold SOR662,Monsanto,7.3,61.89,"Karnataka, Maharashtra, Gujarat",Moderate,"High Protein Content, Pest Resistant, Flood Resistant"
+Soybean,Plus SOY129,Nuziveedu Seeds,4.16,73.18,"Madhya Pradesh, West Bengal",Moderate,Drought Tolerant
+Millet,Plus MIL291,Rasi Seeds,3.42,63.58,"Odisha, Bihar, West Bengal, Kerala",Moderate,Early Maturing
+Mustard,Prime MUS900,Bayer CropScience,4.93,62.2,"Karnataka, Bihar",Moderate,"Early Maturing, High Oil Content"
+Sunflower,Ultra SUN181,Nuziveedu Seeds,4.93,45.01,"Odisha, Tamil Nadu, Maharashtra",Low,"Drought Tolerant, Flood Resistant, High Sugar Recovery"
+Barley,Gold BAR320,Monsanto,4.28,60.46,"Andhra Pradesh, Karnataka, Madhya Pradesh, Bihar",Moderate,"High Protein Content, Good Milling Quality, Export Quality"
+Barley,Pro BAR699,Nuziveedu Seeds,3.91,79.85,"Madhya Pradesh, Kerala",High,"Flood Resistant, Export Quality, Drought Tolerant"
+Sorghum,Plus SOR440,Rasi Seeds,6.26,39.51,"West Bengal, Punjab",Moderate,"High Protein Content, Early Maturing, High Sugar Recovery"
+Sorghum,Elite SOR952,Nuziveedu Seeds,2.73,99.36,"Gujarat, Tamil Nadu",Moderate,Heat Tolerant
+Mustard,Prime MUS886,Pioneer,5.52,65.37,"Telangana, West Bengal, Gujarat",Moderate,"High Protein Content, Export Quality"
+Wheat,Pro WHE111,Monsanto,3.97,108.87,"Telangana, Tamil Nadu, Bihar, Uttar Pradesh",High,Drought Tolerant
+Maize,Elite MAI497,Mahyco,5.85,53.14,"Odisha, Tamil Nadu, Rajasthan",High,"Pest Resistant, Drought Tolerant, Good Milling Quality"
+Soybean,Prime SOY952,IFFCO,3.76,75.45,"Uttar Pradesh, Punjab, Madhya Pradesh",Low,"High Sugar Recovery, Good Milling Quality, Pest Resistant"
+Pea,Plus PEA719,Syngenta,7.05,116.78,"Rajasthan, Haryana",High,"Drought Tolerant, Good Milling Quality, Early Maturing"
+Cotton,Max COT771,Advanta,6.06,40.94,"Andhra Pradesh, Odisha, Kerala",High,Flood Resistant
+Sorghum,Super SOR772,Monsanto,6.81,44.95,"Kerala, Andhra Pradesh, Tamil Nadu, Madhya Pradesh",High,Heat Tolerant
+Mustard,Plus MUS450,Syngenta,4.25,62.1,"Tamil Nadu, Haryana, Maharashtra, Rajasthan",Low,"Drought Tolerant, High Oil Content, High Sugar Recovery"
+Onion,Max ONI473,Pioneer,7.69,105.2,"Tamil Nadu, West Bengal",High,"Export Quality, High Sugar Recovery, Heat Tolerant"
+Potato,Max POT545,Syngenta,3.69,31.85,"Andhra Pradesh, Odisha, Gujarat",High,Early Maturing
+Potato,Super POT165,Pioneer,2.58,106.72,"Tamil Nadu, Bihar",High,"High Oil Content, Early Maturing"
+Sunflower,Max SUN587,Kaveri Seeds,3.94,56.94,"Andhra Pradesh, Tamil Nadu, West Bengal, Rajasthan",Low,"Early Maturing, High Protein Content"
+Sugarcane,Gold SUG677,Advanta,3.79,44.38,"Kerala, Bihar",Moderate,Early Maturing
+Sunflower,Hybrid SUN782,Advanta,3.88,103.78,"Tamil Nadu, Telangana",High,Good Milling Quality
+Sorghum,Gold SOR871,Advanta,3.61,70.35,"Punjab, Uttar Pradesh, Rajasthan",Low,Early Maturing
+Pea,Gold PEA903,Kaveri Seeds,3.77,82.47,"Tamil Nadu, Gujarat",Low,Export Quality
+Barley,Gold BAR456,Advanta,6.08,87.68,"Rajasthan, Punjab, Gujarat",Moderate,"Heat Tolerant, Drought Tolerant, Early Maturing"
+Onion,Pro ONI662,Syngenta,5.81,88.43,"Gujarat, Karnataka",Moderate,Good Milling Quality
+Tea,Plus TEA995,Pioneer,4.81,100.09,"Uttar Pradesh, Maharashtra, Madhya Pradesh, Tamil Nadu",High,"Drought Tolerant, Heat Tolerant"
+Barley,Gold BAR433,Bayer CropScience,4.76,77.9,"Tamil Nadu, Andhra Pradesh",Moderate,Drought Tolerant
+Sugarcane,Ultra SUG440,IFFCO,4.47,101.55,"Rajasthan, Andhra Pradesh, Punjab",Low,"High Sugar Recovery, High Protein Content"
+Sugarcane,Elite SUG536,Pioneer,7.8,49.23,"Maharashtra, Uttar Pradesh, Rajasthan, Odisha",High,"Drought Tolerant, Early Maturing"
+Sugarcane,Hybrid SUG931,Syngenta,7.0,39.91,"Haryana, Tamil Nadu, West Bengal, Rajasthan",Moderate,Early Maturing
+Pulses,Max PUL143,Monsanto,3.19,49.97,"Bihar, Andhra Pradesh, West Bengal",Low,"Drought Tolerant, Flood Resistant"
+Maize,Hybrid MAI660,Syngenta,4.66,28.17,"Odisha, Uttar Pradesh, Telangana, Punjab",High,"Export Quality, High Oil Content"
+Millet,Max MIL553,Mahyco,7.06,46.8,"Punjab, Odisha",Low,Heat Tolerant
+Onion,Prime ONI723,Monsanto,4.14,57.77,"West Bengal, Maharashtra, Odisha",Moderate,"Heat Tolerant, Drought Tolerant, Pest Resistant"
+Soybean,Max SOY907,Pioneer,4.51,22.87,"Rajasthan, Kerala, Andhra Pradesh",Moderate,Heat Tolerant
+Pea,Prime PEA675,Nuziveedu Seeds,4.33,69.94,"Punjab, Telangana, Tamil Nadu",Low,"Early Maturing, High Sugar Recovery"
+Barley,Ultra BAR948,Syngenta,2.74,75.1,"Telangana, Uttar Pradesh, Odisha, Punjab",High,Heat Tolerant
+Cotton,Ultra COT415,Syngenta,4.23,49.45,"Madhya Pradesh, West Bengal, Punjab, Telangana",High,High Sugar Recovery
+Soybean,Ultra SOY177,Monsanto,5.12,105.35,"Odisha, Bihar",Moderate,"Heat Tolerant, High Oil Content"
+Chickpea,Pro CHI468,Bayer CropScience,5.35,58.29,"Uttar Pradesh, Bihar, Andhra Pradesh, Gujarat",Moderate,"Export Quality, Good Milling Quality"
+Barley,Max BAR705,Syngenta,5.12,75.61,"Karnataka, Odisha, Kerala",Moderate,"Drought Tolerant, Flood Resistant"
+Soybean,Max SOY927,IFFCO,7.25,73.06,"Gujarat, West Bengal, Haryana",High,"Export Quality, High Protein Content"
+Barley,Ultra BAR517,Monsanto,3.42,99.43,"Haryana, Gujarat, Tamil Nadu",Moderate,"Pest Resistant, Early Maturing, Good Milling Quality"
+Sorghum,Elite SOR672,Monsanto,4.68,84.32,"Odisha, Madhya Pradesh, Gujarat, Punjab",Moderate,Heat Tolerant
+Millet,Ultra MIL568,Kaveri Seeds,6.72,39.99,"Uttar Pradesh, Haryana, Punjab",High,"High Protein Content, Early Maturing, High Sugar Recovery"
+Sorghum,Prime SOR931,Monsanto,7.65,22.48,"Odisha, Gujarat",Low,"Drought Tolerant, Good Milling Quality, High Sugar Recovery"
+Barley,Max BAR834,Rasi Seeds,3.79,84.51,"Madhya Pradesh, Odisha, West Bengal",Low,Heat Tolerant
+Soybean,Super SOY876,Rasi Seeds,4.2,96.72,"Rajasthan, Telangana, Tamil Nadu, Punjab",High,"High Sugar Recovery, High Protein Content"
+Tea,Elite TEA619,Pioneer,6.19,55.66,"Tamil Nadu, Haryana",Low,"Drought Tolerant, Heat Tolerant, High Oil Content"
+Barley,Ultra BAR773,IFFCO,5.93,66.09,"Andhra Pradesh, Punjab, Odisha",High,"Pest Resistant, Export Quality, High Sugar Recovery"
+Soybean,Max SOY615,Bayer CropScience,3.08,45.01,"Karnataka, West Bengal, Tamil Nadu",Moderate,"High Sugar Recovery, High Oil Content, Export Quality"
+Cotton,Elite COT948,Nuziveedu Seeds,3.3,77.64,"Rajasthan, West Bengal, Andhra Pradesh, Karnataka",High,"Flood Resistant, Heat Tolerant"
+Maize,Elite MAI306,Advanta,4.8,36.9,"Karnataka, Gujarat",High,"High Oil Content, Pest Resistant"
+Groundnut,Plus GRO360,Nuziveedu Seeds,4.65,79.35,"Karnataka, Maharashtra, Odisha",Moderate,Early Maturing
+Banana,Gold BAN657,Syngenta,3.48,90.96,"Bihar, Uttar Pradesh, Kerala, Rajasthan",Moderate,High Protein Content
+Pulses,Prime PUL338,Nuziveedu Seeds,5.67,58.29,"Odisha, Rajasthan, Punjab",Moderate,Drought Tolerant
+Chickpea,Max CHI581,Mahyco,5.53,102.26,"Uttar Pradesh, Haryana, West Bengal, Rajasthan",High,"High Sugar Recovery, Heat Tolerant"
+Maize,Plus MAI691,IFFCO,7.86,79.01,"Kerala, Maharashtra, Bihar",Low,"Early Maturing, Drought Tolerant"
+Banana,Pro BAN888,Mahyco,6.26,26.82,"Maharashtra, West Bengal, Haryana, Madhya Pradesh",High,High Oil Content
+Mustard,Hybrid MUS641,Rasi Seeds,4.78,70.64,"Punjab, Gujarat",High,"Drought Tolerant, High Protein Content"
+Wheat,Prime WHE709,Rasi Seeds,6.47,112.57,"Haryana, Gujarat",Low,Flood Resistant
+Soybean,Pro SOY948,Monsanto,5.89,111.81,"Gujarat, Maharashtra, Madhya Pradesh",High,"High Sugar Recovery, High Protein Content"
+Pea,Super PEA766,Bayer CropScience,6.9,27.16,"West Bengal, Rajasthan",High,"Flood Resistant, Early Maturing, Export Quality"
+Cotton,Elite COT190,Syngenta,5.02,68.29,"Uttar Pradesh, Haryana",Moderate,"Early Maturing, High Protein Content, Heat Tolerant"
+Potato,Gold POT335,Advanta,7.39,48.47,"Punjab, Gujarat",Moderate,High Sugar Recovery
+Soybean,Prime SOY621,Bayer CropScience,6.94,28.52,"Uttar Pradesh, Andhra Pradesh",High,"Heat Tolerant, High Protein Content"
+Mustard,Gold MUS585,Nuziveedu Seeds,2.91,80.79,"Bihar, Tamil Nadu, Haryana, Gujarat",Moderate,High Sugar Recovery
+Tea,Pro TEA448,Monsanto,6.86,67.53,"Bihar, Punjab, West Bengal, Gujarat",High,"High Sugar Recovery, Flood Resistant, High Oil Content"
+Banana,Super BAN364,Nuziveedu Seeds,6.48,31.72,"Kerala, Punjab",Low,"Heat Tolerant, High Sugar Recovery"
+Barley,Ultra BAR759,Bayer CropScience,3.41,109.69,"Punjab, Bihar, Telangana, Karnataka",Moderate,Heat Tolerant
+Sunflower,Prime SUN101,Mahyco,2.61,111.76,"Telangana, Madhya Pradesh, Haryana",High,"Drought Tolerant, Pest Resistant, High Oil Content"
+Soybean,Prime SOY902,Syngenta,5.48,102.14,"Tamil Nadu, Maharashtra",Moderate,"Pest Resistant, Drought Tolerant"
+Potato,Ultra POT202,Kaveri Seeds,5.44,39.3,"Gujarat, Rajasthan",Moderate,High Sugar Recovery
+Mustard,Max MUS299,Advanta,7.98,48.28,"Bihar, Gujarat, Andhra Pradesh, Rajasthan",High,"Drought Tolerant, Heat Tolerant"
+Groundnut,Hybrid GRO560,Bayer CropScience,7.17,37.25,"Maharashtra, Uttar Pradesh, Karnataka, Gujarat",Low,"Early Maturing, High Protein Content, Flood Resistant"
+Tea,Elite TEA244,Mahyco,6.25,112.55,"West Bengal, Haryana, Gujarat",Moderate,"High Oil Content, Good Milling Quality"
+Soybean,Ultra SOY724,Monsanto,5.48,81.7,"West Bengal, Karnataka",High,"High Sugar Recovery, Good Milling Quality"
+Onion,Prime ONI774,IFFCO,5.15,58.65,"Rajasthan, Karnataka, Uttar Pradesh, Tamil Nadu",Moderate,"Heat Tolerant, High Oil Content, Drought Tolerant"
+Sorghum,Ultra SOR243,Rasi Seeds,6.74,49.95,"Tamil Nadu, Bihar, Uttar Pradesh",Low,"Pest Resistant, Flood Resistant, Heat Tolerant"
+Rice,Super RIC705,Rasi Seeds,2.62,67.32,"Madhya Pradesh, Andhra Pradesh, Gujarat, Punjab",Low,"High Oil Content, Heat Tolerant"
+Potato,Ultra POT227,Kaveri Seeds,3.68,71.87,"Odisha, Karnataka, Haryana, Bihar",Moderate,"Drought Tolerant, Early Maturing"
+Sunflower,Max SUN167,Syngenta,6.92,62.27,"Kerala, Madhya Pradesh, Karnataka",High,Flood Resistant
+Barley,Ultra BAR653,Mahyco,5.16,64.31,"Madhya Pradesh, Telangana, Andhra Pradesh, Tamil Nadu",Low,"High Protein Content, Pest Resistant, Good Milling Quality"
+Pulses,Super PUL583,Kaveri Seeds,7.1,34.82,"Madhya Pradesh, Punjab, West Bengal",High,Pest Resistant
+Potato,Elite POT627,Kaveri Seeds,7.28,89.13,"Andhra Pradesh, Karnataka, Rajasthan, Punjab",High,"High Oil Content, High Sugar Recovery"
+Pulses,Max PUL301,Nuziveedu Seeds,7.12,76.8,"Haryana, Tamil Nadu, Telangana",High,"High Oil Content, High Protein Content, Flood Resistant"
+Sorghum,Max SOR292,Advanta,4.13,64.04,"Rajasthan, Andhra Pradesh",Moderate,"High Oil Content, Good Milling Quality, Flood Resistant"
+Pulses,Max PUL608,Bayer CropScience,7.31,57.61,"Kerala, Karnataka",Moderate,Heat Tolerant
+Sugarcane,Pro SUG928,Mahyco,7.77,104.71,"Bihar, Kerala",High,"Drought Tolerant, Early Maturing, High Sugar Recovery"
+Pea,Plus PEA893,IFFCO,5.53,111.36,"Telangana, Madhya Pradesh",Moderate,Heat Tolerant
+Groundnut,Super GRO387,Pioneer,6.54,30.31,"Telangana, Gujarat",Moderate,"High Sugar Recovery, Good Milling Quality"
+Rice,Hybrid RIC758,Bayer CropScience,2.97,97.36,"West Bengal, Gujarat, Uttar Pradesh",Moderate,"Drought Tolerant, Early Maturing"
+Soybean,Elite SOY174,Syngenta,7.66,42.43,"Tamil Nadu, Andhra Pradesh, Haryana, West Bengal",Moderate,Good Milling Quality
+Groundnut,Plus GRO984,Nuziveedu Seeds,6.11,113.56,"Andhra Pradesh, Punjab",Moderate,"High Oil Content, Early Maturing, Flood Resistant"
+Wheat,Super WHE903,Pioneer,6.48,116.34,"Rajasthan, Odisha, Punjab, Madhya Pradesh",High,"Early Maturing, High Oil Content, High Protein Content"
+Tea,Super TEA930,Mahyco,7.86,20.67,"Rajasthan, Madhya Pradesh, Maharashtra, Uttar Pradesh",High,"Flood Resistant, High Protein Content"
+Sunflower,Super SUN324,Monsanto,5.39,113.51,"Uttar Pradesh, Bihar, Maharashtra",Low,Export Quality
+Wheat,Elite WHE310,Nuziveedu Seeds,3.97,34.42,"Kerala, Punjab",High,"Pest Resistant, Drought Tolerant"
+Tea,Plus TEA412,Rasi Seeds,6.45,21.29,"Haryana, Andhra Pradesh, Madhya Pradesh, Uttar Pradesh",High,"High Protein Content, Early Maturing, Export Quality"
+Banana,Elite BAN836,Monsanto,4.55,90.99,"Gujarat, Uttar Pradesh, Kerala, Karnataka",Moderate,High Sugar Recovery
+Sugarcane,Elite SUG252,Monsanto,6.32,76.53,"Madhya Pradesh, Odisha, Karnataka",Moderate,"Heat Tolerant, Drought Tolerant"
+Onion,Gold ONI839,IFFCO,4.49,89.09,"Karnataka, Rajasthan, Telangana, West Bengal",Moderate,High Sugar Recovery
+Pea,Ultra PEA784,Kaveri Seeds,4.56,42.02,"Haryana, Gujarat, Punjab",Low,"High Oil Content, Flood Resistant, Export Quality"
+Tomato,Elite TOM157,IFFCO,4.47,36.49,"Tamil Nadu, Punjab",Moderate,"High Protein Content, Heat Tolerant"
+Cotton,Pro COT927,Pioneer,3.25,50.88,"Rajasthan, Gujarat, Karnataka, Uttar Pradesh",High,"Flood Resistant, Export Quality, Heat Tolerant"
+Tomato,Pro TOM800,Advanta,4.97,84.02,"Bihar, Rajasthan, Tamil Nadu, Kerala",Moderate,"High Oil Content, High Protein Content"
+Chickpea,Elite CHI268,IFFCO,5.32,29.63,"Uttar Pradesh, Kerala, Gujarat",Moderate,"High Protein Content, High Sugar Recovery, Early Maturing"
+Potato,Prime POT519,Mahyco,6.0,72.49,"Maharashtra, Punjab, Kerala, Haryana",Moderate,Good Milling Quality
+Barley,Plus BAR623,Advanta,5.24,74.52,"Gujarat, Karnataka, Telangana",Low,"High Oil Content, High Protein Content, Pest Resistant"
+Millet,Max MIL625,Syngenta,7.31,61.52,"Uttar Pradesh, Bihar, Haryana",High,Export Quality
+Wheat,Plus WHE552,Kaveri Seeds,6.82,98.19,"Maharashtra, Telangana",Low,"Flood Resistant, Heat Tolerant"
+Potato,Elite POT489,Rasi Seeds,5.34,93.86,"Karnataka, Telangana",Moderate,"Early Maturing, High Protein Content, High Oil Content"
+Potato,Super POT375,Pioneer,5.51,112.78,"Telangana, Punjab, Haryana, Odisha",High,High Sugar Recovery
+Rice,Gold RIC899,Bayer CropScience,7.11,99.63,"Uttar Pradesh, Madhya Pradesh, Odisha, Telangana",High,High Sugar Recovery
+Soybean,Ultra SOY579,Syngenta,7.91,42.01,"Kerala, Bihar, West Bengal",Low,"High Oil Content, Flood Resistant, Export Quality"
+Tomato,Plus TOM757,Pioneer,6.81,81.3,"Gujarat, Maharashtra, Kerala",High,"Drought Tolerant, Export Quality"
+Onion,Prime ONI475,Mahyco,5.23,112.93,"Rajasthan, Uttar Pradesh",Low,Early Maturing
+Banana,Max BAN696,Pioneer,6.39,98.85,"Madhya Pradesh, Tamil Nadu, West Bengal",Low,"Good Milling Quality, High Protein Content"
+Chickpea,Ultra CHI702,Mahyco,3.25,52.28,"Kerala, Gujarat, Odisha",Low,Heat Tolerant
+Onion,Ultra ONI135,Monsanto,4.6,114.49,"Kerala, Bihar, Rajasthan",Low,High Sugar Recovery
+Groundnut,Plus GRO305,IFFCO,5.68,90.64,"Andhra Pradesh, Punjab, Rajasthan",Moderate,Drought Tolerant
+Wheat,Hybrid WHE948,Monsanto,5.07,105.19,"Tamil Nadu, Karnataka, Andhra Pradesh, Bihar",Moderate,"High Oil Content, Pest Resistant, High Sugar Recovery"
+Sugarcane,Gold SUG987,Pioneer,5.77,65.35,"Madhya Pradesh, Uttar Pradesh, West Bengal",Moderate,"High Sugar Recovery, Early Maturing"
+Barley,Max BAR972,Pioneer,4.41,107.99,"Maharashtra, Telangana, Odisha, Andhra Pradesh",Low,"High Oil Content, High Protein Content"
+Potato,Super POT468,Advanta,4.48,60.02,"West Bengal, Madhya Pradesh",Moderate,High Oil Content
+Wheat,Gold WHE504,Pioneer,6.06,96.78,"Rajasthan, Andhra Pradesh, Telangana, Odisha",Moderate,Heat Tolerant
+Banana,Prime BAN234,Advanta,2.77,113.17,"Uttar Pradesh, Andhra Pradesh, Odisha",Moderate,High Protein Content
+Wheat,Gold WHE779,Syngenta,2.59,68.26,"Madhya Pradesh, West Bengal",High,"Early Maturing, Drought Tolerant"
+Tea,Hybrid TEA224,IFFCO,6.17,115.13,"Haryana, Madhya Pradesh, Bihar, Karnataka",Low,"Heat Tolerant, Good Milling Quality"
+Potato,Super POT370,Syngenta,3.54,76.58,"Maharashtra, Karnataka, Bihar",Low,"High Sugar Recovery, Export Quality, Pest Resistant"
+Tea,Gold TEA719,Kaveri Seeds,4.54,75.98,"Haryana, Maharashtra",Low,Good Milling Quality
+Potato,Ultra POT688,Bayer CropScience,3.27,51.78,"Telangana, Uttar Pradesh, Kerala",Moderate,"Export Quality, High Protein Content, Drought Tolerant"
+Soybean,Gold SOY594,Syngenta,7.09,71.87,"Kerala, Punjab",High,"High Protein Content, Flood Resistant, Early Maturing"
+Barley,Pro BAR707,IFFCO,4.49,53.27,"Punjab, Kerala, Madhya Pradesh, Tamil Nadu",Low,"High Protein Content, Early Maturing"
+Pea,Super PEA658,Pioneer,5.92,87.37,"Uttar Pradesh, Maharashtra, Madhya Pradesh",High,Good Milling Quality
+Barley,Super BAR407,Kaveri Seeds,5.27,31.25,"Maharashtra, Telangana, Odisha, Andhra Pradesh",Moderate,Heat Tolerant
+Onion,Prime ONI403,Syngenta,7.21,109.27,"Tamil Nadu, Haryana, Uttar Pradesh, Odisha",Moderate,"High Sugar Recovery, Heat Tolerant"
+Pea,Super PEA796,Mahyco,4.42,108.69,"Punjab, Gujarat",Low,"Drought Tolerant, Good Milling Quality, High Oil Content"
+Onion,Plus ONI509,IFFCO,4.04,90.83,"Rajasthan, Gujarat",Moderate,Early Maturing
+Tea,Plus TEA127,Nuziveedu Seeds,6.4,85.45,"Madhya Pradesh, Uttar Pradesh, Bihar, Tamil Nadu",Low,High Oil Content
+Pulses,Pro PUL573,Syngenta,3.76,112.79,"Karnataka, Rajasthan",High,"High Protein Content, High Oil Content, Early Maturing"
+Chickpea,Super CHI147,Nuziveedu Seeds,7.32,59.86,"Bihar, Odisha, West Bengal",Low,"Drought Tolerant, High Oil Content"
+Barley,Hybrid BAR570,Mahyco,5.98,49.14,"Haryana, Andhra Pradesh, Rajasthan",Low,"Export Quality, High Oil Content, Pest Resistant"
+Sunflower,Super SUN657,Mahyco,3.2,43.36,"Madhya Pradesh, Rajasthan",Low,Drought Tolerant
+Banana,Hybrid BAN985,Monsanto,3.88,59.88,"Punjab, Haryana",Low,"Early Maturing, Pest Resistant, Good Milling Quality"
+Cotton,Hybrid COT793,Nuziveedu Seeds,6.37,69.47,"Maharashtra, Gujarat, Telangana, Madhya Pradesh",High,"Good Milling Quality, Early Maturing"
+Sunflower,Hybrid SUN708,Monsanto,7.82,83.88,"Andhra Pradesh, Bihar",Low,"Drought Tolerant, High Protein Content, Pest Resistant"
+Pea,Hybrid PEA574,Mahyco,5.89,38.02,"Karnataka, Odisha",High,"Pest Resistant, High Protein Content"
+Millet,Prime MIL686,IFFCO,3.99,60.26,"West Bengal, Haryana, Odisha",Low,"High Oil Content, High Sugar Recovery"
+Banana,Pro BAN903,IFFCO,7.75,53.71,"Punjab, Odisha",Moderate,"Good Milling Quality, Early Maturing, High Oil Content"
+Tea,Gold TEA709,Syngenta,7.4,71.62,"Madhya Pradesh, Gujarat, Haryana, Uttar Pradesh",Low,"Export Quality, Flood Resistant"
+Banana,Gold BAN651,Kaveri Seeds,5.68,27.87,"Rajasthan, Tamil Nadu",High,"Export Quality, High Oil Content"
+Barley,Super BAR418,Pioneer,5.07,41.73,"Odisha, Andhra Pradesh, West Bengal, Madhya Pradesh",High,High Oil Content
+Cotton,Hybrid COT928,IFFCO,7.51,39.71,"West Bengal, Haryana, Gujarat",Moderate,"High Protein Content, Pest Resistant"
+Pulses,Elite PUL215,IFFCO,4.18,118.71,"West Bengal, Bihar, Gujarat",High,"High Protein Content, Export Quality"
+Potato,Pro POT413,Kaveri Seeds,7.01,29.39,"Madhya Pradesh, Maharashtra",High,High Sugar Recovery
+Onion,Super ONI615,IFFCO,5.53,81.82,"Madhya Pradesh, Kerala",Moderate,Flood Resistant
+Maize,Plus MAI734,Kaveri Seeds,4.75,48.86,"Gujarat, Haryana, Punjab",Low,"Drought Tolerant, Export Quality, Heat Tolerant"
+Onion,Hybrid ONI180,Rasi Seeds,6.84,37.16,"Haryana, West Bengal, Odisha",Low,"High Oil Content, Flood Resistant, Early Maturing"
+Cotton,Plus COT502,IFFCO,3.47,69.41,"Punjab, Kerala, Telangana, Bihar",Low,"Pest Resistant, Flood Resistant, Early Maturing"
+Potato,Hybrid POT824,Rasi Seeds,6.15,99.65,"Gujarat, Kerala",High,Heat Tolerant
+Tomato,Ultra TOM256,Kaveri Seeds,4.41,48.6,"Punjab, West Bengal, Uttar Pradesh",High,"Pest Resistant, High Oil Content, High Sugar Recovery"
+Wheat,Pro WHE622,Rasi Seeds,5.85,41.61,"West Bengal, Gujarat",Moderate,"Early Maturing, High Oil Content, Export Quality"
+Onion,Pro ONI977,Syngenta,4.43,94.07,"Andhra Pradesh, Telangana",Moderate,"Pest Resistant, Flood Resistant, Export Quality"
+Pea,Super PEA487,Mahyco,2.91,32.76,"Bihar, Karnataka, Odisha, Rajasthan",Low,Flood Resistant
+Pea,Hybrid PEA609,Syngenta,5.46,29.89,"Punjab, Odisha, Uttar Pradesh",High,"High Sugar Recovery, High Protein Content, Drought Tolerant"
+Chickpea,Super CHI866,Pioneer,4.81,31.49,"Bihar, Haryana",Low,Export Quality
+Groundnut,Elite GRO260,Advanta,4.93,55.21,"Maharashtra, Rajasthan, Haryana, Karnataka",Moderate,"High Protein Content, Heat Tolerant, High Sugar Recovery"
+Sorghum,Super SOR754,Nuziveedu Seeds,5.17,86.08,"Andhra Pradesh, Kerala, Uttar Pradesh",Moderate,"Pest Resistant, Early Maturing"
+Sorghum,Hybrid SOR768,Monsanto,6.07,53.36,"Kerala, Telangana, West Bengal",Moderate,"Good Milling Quality, Heat Tolerant"
+Sunflower,Plus SUN188,Pioneer,3.16,91.31,"Rajasthan, Bihar, Andhra Pradesh",Moderate,Early Maturing
+Millet,Elite MIL123,Monsanto,7.36,99.55,"West Bengal, Haryana, Maharashtra, Madhya Pradesh",High,"Pest Resistant, Flood Resistant, High Sugar Recovery"
+Maize,Ultra MAI332,Bayer CropScience,6.94,76.76,"West Bengal, Kerala, Karnataka, Telangana",Moderate,Early Maturing
+Sugarcane,Pro SUG327,Monsanto,3.65,90.91,"Tamil Nadu, West Bengal, Maharashtra",Moderate,"High Sugar Recovery, Pest Resistant, Heat Tolerant"
+Maize,Elite MAI161,Rasi Seeds,5.76,40.89,"Kerala, Odisha",High,"Heat Tolerant, High Sugar Recovery"
+Barley,Prime BAR167,Mahyco,3.01,34.24,"Tamil Nadu, Uttar Pradesh, Telangana",Low,"Heat Tolerant, High Sugar Recovery"
+Banana,Super BAN930,Nuziveedu Seeds,3.65,97.44,"Rajasthan, Punjab, Karnataka",Low,Pest Resistant
+Potato,Hybrid POT869,Monsanto,7.17,92.11,"West Bengal, Uttar Pradesh, Haryana, Rajasthan",High,"Flood Resistant, High Protein Content"
+Wheat,Plus WHE781,Monsanto,3.07,57.59,"Karnataka, Rajasthan, Uttar Pradesh",Low,"High Sugar Recovery, High Protein Content, Early Maturing"
+Mustard,Ultra MUS487,Monsanto,7.32,84.92,"Bihar, Telangana",Moderate,High Protein Content
+Tomato,Hybrid TOM365,Pioneer,3.5,112.49,"Uttar Pradesh, Haryana, Punjab, Bihar",High,"Good Milling Quality, Flood Resistant"
+Pea,Pro PEA128,Rasi Seeds,7.0,64.42,"Odisha, Haryana, Maharashtra, Tamil Nadu",High,"Flood Resistant, High Oil Content, Drought Tolerant"
+Pulses,Super PUL980,Bayer CropScience,4.59,113.19,"Punjab, Haryana, Andhra Pradesh",Low,Good Milling Quality
+Chickpea,Elite CHI178,Bayer CropScience,4.76,32.45,"West Bengal, Maharashtra",Low,"Flood Resistant, Heat Tolerant"
+Soybean,Gold SOY895,IFFCO,4.65,83.14,"Tamil Nadu, Andhra Pradesh, Haryana, Telangana",Moderate,"Export Quality, High Sugar Recovery"
+Rice,Plus RIC568,Bayer CropScience,7.05,43.38,"Punjab, Tamil Nadu, Gujarat",Low,"High Oil Content, Early Maturing, High Sugar Recovery"
+Banana,Hybrid BAN805,Monsanto,3.3,57.57,"Gujarat, Karnataka",Low,Heat Tolerant
+Chickpea,Pro CHI958,IFFCO,4.01,84.04,"Haryana, Madhya Pradesh",Low,Pest Resistant
+Rice,Hybrid RIC762,Bayer CropScience,6.75,28.86,"Uttar Pradesh, Odisha, Andhra Pradesh",High,"High Protein Content, High Oil Content, Drought Tolerant"
+Sorghum,Ultra SOR888,Bayer CropScience,7.61,33.33,"Odisha, Andhra Pradesh, Kerala, West Bengal",Low,"High Sugar Recovery, Pest Resistant, High Protein Content"
+Sugarcane,Max SUG324,Pioneer,7.24,46.7,"Tamil Nadu, Punjab, Andhra Pradesh",Moderate,"Heat Tolerant, Early Maturing, High Protein Content"
+Pea,Prime PEA242,IFFCO,7.47,102.86,"Telangana, Haryana, Maharashtra, Bihar",Moderate,Early Maturing
+Maize,Max MAI392,Pioneer,6.49,86.56,"Telangana, Gujarat",Moderate,High Oil Content
+Cotton,Pro COT498,Advanta,6.37,77.74,"Haryana, Bihar, Gujarat",Moderate,Pest Resistant
+Potato,Hybrid POT104,Pioneer,7.28,91.99,"Tamil Nadu, Odisha, Maharashtra",Low,"High Oil Content, Flood Resistant, Export Quality"
+Rice,Pro RIC676,Nuziveedu Seeds,3.39,32.51,"Gujarat, Kerala",Moderate,"Drought Tolerant, High Oil Content"
+Potato,Super POT632,Monsanto,7.31,101.35,"Andhra Pradesh, Karnataka, Bihar, Rajasthan",Low,Pest Resistant
+Millet,Gold MIL961,Pioneer,5.69,70.56,"Rajasthan, Punjab, Bihar",High,High Oil Content
+Potato,Ultra POT739,IFFCO,4.85,44.71,"Bihar, Haryana",Moderate,"Drought Tolerant, Early Maturing"
+Sunflower,Ultra SUN927,IFFCO,2.84,38.0,"Maharashtra, Bihar",High,"High Sugar Recovery, High Protein Content"
+Mustard,Super MUS169,IFFCO,3.62,41.68,"Bihar, Haryana, Telangana",Moderate,Export Quality
+Onion,Super ONI249,Kaveri Seeds,4.9,76.3,"Haryana, Punjab, Karnataka",Low,"High Protein Content, High Sugar Recovery"
+Maize,Hybrid MAI177,IFFCO,5.74,50.69,"Kerala, Andhra Pradesh, Odisha, Punjab",Moderate,Pest Resistant
+Groundnut,Elite GRO798,Kaveri Seeds,3.64,113.84,"Tamil Nadu, West Bengal",High,"High Sugar Recovery, Pest Resistant, High Protein Content"
+Cotton,Plus COT310,Pioneer,7.56,80.59,"Punjab, Madhya Pradesh",Moderate,High Protein Content
+Chickpea,Plus CHI677,Syngenta,3.59,32.36,"Bihar, Uttar Pradesh, Punjab, Madhya Pradesh",Low,"Pest Resistant, Good Milling Quality"
+Groundnut,Pro GRO236,Syngenta,5.9,54.32,"Punjab, Tamil Nadu, Andhra Pradesh",Moderate,Early Maturing
+Soybean,Gold SOY720,Rasi Seeds,6.09,88.19,"Maharashtra, Karnataka",High,"Heat Tolerant, Early Maturing, High Protein Content"
+Tea,Gold TEA911,Nuziveedu Seeds,5.49,46.82,"Madhya Pradesh, Telangana",Low,"High Sugar Recovery, Heat Tolerant, Good Milling Quality"
+Pea,Super PEA817,Bayer CropScience,3.62,20.25,"Kerala, Bihar",High,High Oil Content
+Banana,Elite BAN241,Pioneer,7.67,53.55,"Gujarat, Uttar Pradesh, Punjab, Haryana",High,"High Protein Content, Export Quality"
+Onion,Prime ONI806,Rasi Seeds,6.49,116.02,"Gujarat, West Bengal",High,Early Maturing
+Soybean,Ultra SOY622,Kaveri Seeds,5.75,76.22,"Punjab, Rajasthan, Uttar Pradesh",Moderate,"Heat Tolerant, High Oil Content, Drought Tolerant"
+Mustard,Ultra MUS833,Mahyco,4.82,37.69,"Rajasthan, Kerala, Punjab, Uttar Pradesh",Moderate,Good Milling Quality
+Wheat,Elite WHE977,Mahyco,5.04,81.55,"Telangana, Gujarat, Maharashtra, Andhra Pradesh",Low,"Pest Resistant, Good Milling Quality, Export Quality"
+Barley,Gold BAR288,Kaveri Seeds,3.82,107.57,"Maharashtra, Gujarat, Uttar Pradesh",Low,"Flood Resistant, Good Milling Quality, Early Maturing"
+Soybean,Max SOY744,IFFCO,7.92,38.88,"Rajasthan, Haryana, Telangana",High,Drought Tolerant
+Tea,Gold TEA196,Bayer CropScience,5.09,59.22,"Maharashtra, West Bengal",Low,High Protein Content
+Pea,Pro PEA484,Mahyco,7.56,59.37,"Rajasthan, Uttar Pradesh, Andhra Pradesh",High,"Early Maturing, High Protein Content, Drought Tolerant"
+Wheat,Elite WHE327,Monsanto,5.04,87.01,"Rajasthan, Haryana, Maharashtra, Karnataka",Low,Early Maturing
+Potato,Plus POT868,Nuziveedu Seeds,5.21,61.47,"Maharashtra, Kerala, Madhya Pradesh, Odisha",High,High Protein Content
+Chickpea,Plus CHI254,Rasi Seeds,4.58,53.1,"Karnataka, Gujarat, Rajasthan",Moderate,High Oil Content
+Maize,Pro MAI783,Kaveri Seeds,5.5,30.41,"Maharashtra, Madhya Pradesh, West Bengal",Low,Heat Tolerant
+Banana,Ultra BAN186,Advanta,6.76,67.41,"Telangana, Maharashtra, Uttar Pradesh, Punjab",Moderate,"Export Quality, Drought Tolerant, Flood Resistant"
+Chickpea,Prime CHI494,Advanta,5.37,28.93,"Punjab, Madhya Pradesh",Low,"Drought Tolerant, High Protein Content"
+Groundnut,Elite GRO729,Rasi Seeds,2.76,80.09,"Tamil Nadu, Andhra Pradesh",Low,Flood Resistant
+Sugarcane,Hybrid SUG834,Bayer CropScience,7.05,98.92,"Maharashtra, West Bengal, Punjab, Madhya Pradesh",High,"High Oil Content, Early Maturing"
+Chickpea,Elite CHI758,Mahyco,4.26,105.44,"Maharashtra, West Bengal",Moderate,Export Quality
+Banana,Elite BAN587,Mahyco,4.19,21.09,"Maharashtra, Punjab, Bihar",Moderate,"Pest Resistant, Heat Tolerant, Good Milling Quality"
+Wheat,Max WHE124,Advanta,4.63,110.2,"Rajasthan, Telangana, Bihar, Haryana",Moderate,"High Oil Content, Flood Resistant, High Sugar Recovery"
+Groundnut,Pro GRO494,Syngenta,6.45,105.76,"Gujarat, Tamil Nadu, Uttar Pradesh, Odisha",High,"Flood Resistant, Good Milling Quality"
+Maize,Max MAI660,IFFCO,5.43,34.95,"Haryana, Odisha",Low,"High Sugar Recovery, Heat Tolerant"
+Potato,Super POT955,Monsanto,7.69,111.41,"Telangana, Punjab, Karnataka, Uttar Pradesh",Moderate,Heat Tolerant
+Tea,Ultra TEA795,Bayer CropScience,3.37,25.66,"West Bengal, Tamil Nadu, Gujarat",Moderate,"High Sugar Recovery, Heat Tolerant"
+Millet,Plus MIL966,Syngenta,3.46,76.53,"Andhra Pradesh, Haryana",High,"Pest Resistant, Export Quality, Good Milling Quality"
+Tomato,Hybrid TOM905,IFFCO,4.06,40.56,"Gujarat, Haryana, Karnataka, West Bengal",Moderate,Heat Tolerant
+Groundnut,Pro GRO694,Bayer CropScience,6.2,55.59,"Telangana, Haryana, Karnataka",Moderate,"Export Quality, High Protein Content"
+Tea,Hybrid TEA375,Kaveri Seeds,4.54,92.43,"Odisha, Andhra Pradesh, Uttar Pradesh, Karnataka",Moderate,"High Protein Content, High Oil Content, Heat Tolerant"
+Barley,Pro BAR503,Mahyco,3.11,45.38,"Andhra Pradesh, Tamil Nadu",Moderate,"High Sugar Recovery, Flood Resistant, High Protein Content"
+Tea,Gold TEA828,IFFCO,2.87,45.15,"West Bengal, Kerala",Low,"Flood Resistant, High Sugar Recovery, Heat Tolerant"
+Millet,Prime MIL922,IFFCO,7.03,26.01,"West Bengal, Haryana",High,Heat Tolerant
+Millet,Gold MIL352,Monsanto,4.92,74.26,"Punjab, Rajasthan, Karnataka",Moderate,"Early Maturing, High Protein Content, High Sugar Recovery"
+Sugarcane,Ultra SUG129,Pioneer,7.57,101.21,"Kerala, Maharashtra, Haryana",Low,"Drought Tolerant, High Oil Content, Flood Resistant"
+Soybean,Pro SOY264,Syngenta,5.93,22.44,"Uttar Pradesh, Kerala",High,Heat Tolerant
+Cotton,Ultra COT593,Mahyco,6.37,95.98,"Punjab, Gujarat, Karnataka, Maharashtra",Moderate,"Good Milling Quality, Drought Tolerant, Export Quality"
+Barley,Elite BAR580,Mahyco,7.21,90.23,"Odisha, Bihar, Maharashtra",High,Early Maturing
+Soybean,Ultra SOY497,Bayer CropScience,6.56,94.92,"Odisha, Punjab",Moderate,Good Milling Quality
+Wheat,Pro WHE391,Pioneer,7.32,75.2,"Uttar Pradesh, Odisha",Low,"High Oil Content, Pest Resistant, Drought Tolerant"
+Potato,Hybrid POT816,Kaveri Seeds,7.45,96.92,"Uttar Pradesh, Rajasthan, Bihar, West Bengal",Low,"Export Quality, Good Milling Quality"
+Onion,Pro ONI617,Advanta,2.6,45.35,"West Bengal, Karnataka, Kerala",High,High Protein Content
+Mustard,Hybrid MUS657,Advanta,7.26,107.08,"Odisha, Uttar Pradesh",High,"Drought Tolerant, Flood Resistant, Export Quality"
+Potato,Super POT120,Monsanto,2.6,55.95,"Bihar, West Bengal, Telangana, Odisha",Low,Early Maturing
+Barley,Prime BAR745,Nuziveedu Seeds,6.56,81.91,"Uttar Pradesh, Telangana, Karnataka",Low,High Protein Content
+Sunflower,Pro SUN258,Syngenta,5.71,98.4,"Uttar Pradesh, Tamil Nadu, Kerala, Punjab",Low,High Protein Content
+Sorghum,Hybrid SOR496,Kaveri Seeds,5.26,66.47,"Gujarat, Kerala, Tamil Nadu",High,Heat Tolerant
+Cotton,Plus COT236,Advanta,7.72,87.12,"Madhya Pradesh, Bihar, Tamil Nadu",Low,"Export Quality, High Protein Content"
+Groundnut,Elite GRO203,Pioneer,6.93,49.83,"Odisha, West Bengal",Low,Heat Tolerant
+Mustard,Super MUS418,Rasi Seeds,2.91,79.96,"Gujarat, West Bengal, Andhra Pradesh, Bihar",Moderate,"High Protein Content, Good Milling Quality"
+Rice,Super RIC712,Rasi Seeds,5.72,83.93,"Punjab, West Bengal",Low,High Oil Content
+Chickpea,Elite CHI548,Monsanto,6.14,35.38,"Karnataka, Punjab",High,"Flood Resistant, Export Quality, High Protein Content"
+Cotton,Prime COT237,Nuziveedu Seeds,4.12,104.25,"Odisha, Gujarat, Tamil Nadu, Andhra Pradesh",Low,"Early Maturing, Pest Resistant"
+Onion,Super ONI580,IFFCO,6.72,103.86,"Maharashtra, West Bengal",High,Good Milling Quality
+Tomato,Ultra TOM728,Pioneer,3.84,84.22,"Andhra Pradesh, Madhya Pradesh, Odisha",Moderate,"High Protein Content, Good Milling Quality, Flood Resistant"
+Sunflower,Ultra SUN561,Rasi Seeds,5.8,55.04,"Karnataka, Odisha, Andhra Pradesh, Uttar Pradesh",Moderate,"High Oil Content, Drought Tolerant, Pest Resistant"
+Wheat,Ultra WHE808,IFFCO,3.24,101.62,"Tamil Nadu, West Bengal, Rajasthan, Andhra Pradesh",Low,Early Maturing
+Sunflower,Gold SUN785,Pioneer,7.23,23.75,"Punjab, Telangana, Madhya Pradesh",Moderate,"High Sugar Recovery, High Oil Content"
+Onion,Elite ONI178,Nuziveedu Seeds,2.92,113.44,"Rajasthan, West Bengal, Haryana",Low,"High Sugar Recovery, Early Maturing, Drought Tolerant"
+Pea,Pro PEA195,Advanta,6.28,34.54,"Maharashtra, Gujarat, Rajasthan",Moderate,"Flood Resistant, Heat Tolerant"
+Maize,Elite MAI382,Mahyco,5.4,57.59,"Gujarat, Rajasthan, Karnataka, Haryana",High,Flood Resistant
+Pea,Max PEA334,Nuziveedu Seeds,4.64,87.47,"Maharashtra, West Bengal",High,"High Sugar Recovery, High Oil Content, Heat Tolerant"
+Sunflower,Pro SUN546,Monsanto,6.18,28.44,"Gujarat, Tamil Nadu",Moderate,"Drought Tolerant, Pest Resistant"
+Millet,Max MIL441,IFFCO,2.53,32.85,"Telangana, Tamil Nadu",Moderate,Good Milling Quality
+Barley,Max BAR757,Nuziveedu Seeds,6.64,73.58,"Telangana, Karnataka",High,"Export Quality, Drought Tolerant, High Oil Content"
+Sugarcane,Pro SUG117,Rasi Seeds,2.63,46.44,"Punjab, Karnataka, Maharashtra, Odisha",Low,"Good Milling Quality, Drought Tolerant"
+Chickpea,Max CHI744,IFFCO,4.1,61.11,"Gujarat, Punjab, Rajasthan, Tamil Nadu",High,High Sugar Recovery
+Groundnut,Super GRO845,Pioneer,4.26,117.47,"Tamil Nadu, Kerala, Telangana, Punjab",High,Good Milling Quality
+Rice,Super RIC125,IFFCO,3.47,59.79,"West Bengal, Uttar Pradesh, Haryana",High,"Pest Resistant, High Protein Content, Heat Tolerant"
+Wheat,Prime WHE872,Syngenta,3.57,53.24,"Odisha, West Bengal, Bihar",Low,"High Protein Content, Drought Tolerant"
+Tomato,Ultra TOM730,Advanta,7.4,73.58,"Punjab, Kerala, Maharashtra",Moderate,"Heat Tolerant, Drought Tolerant, Early Maturing"
+Sunflower,Gold SUN582,Rasi Seeds,6.67,77.78,"Tamil Nadu, Kerala, Uttar Pradesh",High,Good Milling Quality
+Potato,Super POT481,IFFCO,7.77,88.93,"Andhra Pradesh, Uttar Pradesh",Low,High Sugar Recovery
+Chickpea,Prime CHI288,Nuziveedu Seeds,7.73,113.76,"Kerala, Haryana, Madhya Pradesh, Bihar",Low,"Export Quality, High Sugar Recovery"
+Pulses,Pro PUL235,Monsanto,6.75,76.58,"Telangana, Gujarat, Karnataka, Punjab",Moderate,"Drought Tolerant, Early Maturing"
+Groundnut,Super GRO644,Kaveri Seeds,7.12,76.84,"Bihar, Maharashtra, Madhya Pradesh",High,"Flood Resistant, Heat Tolerant"
+Banana,Super BAN195,Syngenta,2.89,85.19,"Haryana, Karnataka, Uttar Pradesh",High,High Sugar Recovery
+Potato,Plus POT393,Nuziveedu Seeds,6.31,71.78,"Punjab, Andhra Pradesh, Gujarat",Low,"High Sugar Recovery, Drought Tolerant"
+Millet,Pro MIL478,Kaveri Seeds,7.73,96.25,"West Bengal, Tamil Nadu, Punjab, Haryana",High,Drought Tolerant
+Chickpea,Ultra CHI932,Bayer CropScience,5.26,80.22,"Rajasthan, Gujarat, Telangana",Moderate,"High Sugar Recovery, Flood Resistant, Heat Tolerant"
+Potato,Ultra POT927,Nuziveedu Seeds,3.81,96.49,"Uttar Pradesh, Haryana, Karnataka",High,Good Milling Quality
+Tomato,Max TOM444,Nuziveedu Seeds,4.13,110.57,"Rajasthan, Odisha",High,Drought Tolerant
+Mustard,Plus MUS288,Kaveri Seeds,5.34,81.39,"Gujarat, Haryana, Karnataka",Low,"Heat Tolerant, High Sugar Recovery, Export Quality"
+Sorghum,Elite SOR653,Mahyco,6.26,88.73,"Haryana, Maharashtra",High,Early Maturing
+Barley,Max BAR797,Nuziveedu Seeds,5.48,115.87,"Bihar, Punjab, West Bengal",Moderate,"Flood Resistant, Drought Tolerant, High Protein Content"
+Pea,Max PEA108,Kaveri Seeds,7.53,111.66,"Haryana, West Bengal",Moderate,"High Protein Content, Good Milling Quality, Flood Resistant"
+Soybean,Elite SOY192,Kaveri Seeds,2.66,33.58,"Telangana, Kerala",Moderate,Drought Tolerant
+Groundnut,Prime GRO362,Syngenta,5.15,66.66,"Haryana, Karnataka, Telangana, Gujarat",Low,"Early Maturing, Drought Tolerant"
+Sunflower,Gold SUN352,Kaveri Seeds,5.68,26.54,"Tamil Nadu, Punjab, Maharashtra, Uttar Pradesh",Low,"High Sugar Recovery, Pest Resistant"
+Sorghum,Prime SOR179,Monsanto,5.02,40.7,"Punjab, Telangana",Moderate,"Heat Tolerant, Good Milling Quality, High Oil Content"
+Banana,Super BAN526,Bayer CropScience,7.88,111.01,"West Bengal, Rajasthan, Tamil Nadu, Telangana",Moderate,"High Oil Content, Early Maturing, Pest Resistant"
+Soybean,Gold SOY110,Pioneer,5.61,97.35,"Kerala, Maharashtra, Uttar Pradesh",Low,"Export Quality, Good Milling Quality, Heat Tolerant"
+Onion,Hybrid ONI918,Nuziveedu Seeds,4.74,79.15,"Maharashtra, Telangana",Moderate,High Sugar Recovery
+Maize,Ultra MAI278,Mahyco,3.65,25.8,"Bihar, West Bengal, Kerala, Rajasthan",Low,"High Oil Content, Pest Resistant"
+Soybean,Gold SOY496,Syngenta,4.0,30.98,"Tamil Nadu, Haryana",Moderate,"Good Milling Quality, Pest Resistant, High Oil Content"
+Chickpea,Pro CHI310,Kaveri Seeds,4.02,48.04,"Odisha, Bihar, Rajasthan",High,"High Protein Content, Early Maturing"
+Chickpea,Max CHI653,Advanta,4.55,119.06,"Kerala, Madhya Pradesh, Maharashtra",Moderate,"Export Quality, Flood Resistant"
+Maize,Plus MAI622,Kaveri Seeds,7.48,89.24,"Gujarat, Uttar Pradesh",Moderate,"Pest Resistant, Export Quality"
+Chickpea,Max CHI270,Nuziveedu Seeds,7.86,86.17,"Punjab, Telangana, Uttar Pradesh, Bihar",High,Flood Resistant
+Millet,Ultra MIL885,Nuziveedu Seeds,3.76,118.72,"West Bengal, Kerala",Moderate,"Export Quality, Flood Resistant"
+Groundnut,Ultra GRO534,IFFCO,6.23,93.99,"Rajasthan, Maharashtra, Karnataka",Low,"Early Maturing, Pest Resistant, High Protein Content"

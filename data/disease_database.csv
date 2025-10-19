@@ -1,0 +1,8 @@
+crop_type,disease_name,symptoms,causes,organic_treatment,chemical_treatment,prevention,severity,risk_season,affected_regions
+Rice,Blast,"Small spindle-shaped spots with gray centers, brown borders","Fungus: Magnaporthe oryzae","Neem oil spray, Garlic extract","Tricyclazole, Isoprothiolane","Use resistant varieties, Proper spacing",High,"Monsoon,High humidity","All rice-growing regions"
+Rice,Bacterial Blight,"Water-soaked lesions turning yellow, wilting","Bacteria: Xanthomonas oryzae","Copper-based fungicides","Streptomycin, Kasugamycin","Avoid waterlogging, Balanced fertilization",Medium,"Rainy season","Coastal regions"
+Wheat,Rust,"Orange-brown pustules on leaves, stems","Fungus: Puccinia species","Sulfur dust, Baking soda spray","Triazoles, Strobilurins","Early sowing, Resistant varieties",High,"Cool, humid","North India,Punjab,Haryana"
+Wheat,Smut,"Black powdery masses replacing grains","Fungus: Ustilago species","Remove infected plants","Carbendazim, Mancozeb","Use treated seeds, Crop rotation",Medium,"All seasons","All wheat regions"
+Maize,Leaf Blight,"Long elliptical gray-green lesions on leaves","Fungus: Exserohilum turcicum","Copper fungicide","Chlorothalonil, Azoxystrobin","Resistant hybrids, Field sanitation",Medium,"Monsoon","All maize regions"
+Tomato,Early Blight,"Dark spots with concentric rings on leaves","Fungus: Alternaria solani","Copper spray, Remove leaves","Chlorothalonil, Mancozeb","Proper spacing, Mulching",Low,"Humid seasons","All tomato areas"
+Cotton,Bollworm,"Holes in bolls, larvae inside","Insect: Helicoverpa armigera","Neem oil, NSKE","Emamectin benzoate, Spinosad","Intercropping, Pheromone traps",High,"Flowering stage","All cotton regions"

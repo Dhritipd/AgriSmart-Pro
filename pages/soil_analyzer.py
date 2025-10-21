@@ -254,7 +254,7 @@ def check_image_quality(image):
         return "Unable to process image quality."
     
 def is_soil_image(image):
-    """Enhanced check if uploaded image contains soil with texture analysis"""
+    """Enhanced check if uploaded image contains soil with better exclusion of non-soil images"""
     try:
         img_array = np.array(image)
         if len(img_array.shape) != 3:
@@ -262,8 +262,7 @@ def is_soil_image(image):
         
         height, width = img_array.shape[:2]
         
-        # Enhanced soil color detection
-        # Soil colors: brown, black, red, yellow, gray
+        # Enhanced soil color detection with better thresholds
         brown_mask = (img_array[:, :, 0] > 80) & (img_array[:, :, 1] > 60) & (img_array[:, :, 2] < 120)
         black_mask = np.mean(img_array, axis=2) < 60
         red_soil_mask = (img_array[:, :, 0] > 120) & (img_array[:, :, 1] < 80) & (img_array[:, :, 2] < 80)
@@ -272,9 +271,29 @@ def is_soil_image(image):
                         (np.abs(img_array[:, :, 1] - img_array[:, :, 2]) < 30) & \
                         (img_array[:, :, 0] < 150)
         
+        # EXCLUSION: Skin tones (human faces)
+        skin_mask = (img_array[:, :, 0] > 150) & \
+                   (img_array[:, :, 1] > 100) & (img_array[:, :, 1] < 200) & \
+                   (img_array[:, :, 2] < 150) & \
+                   (np.abs(img_array[:, :, 0] - img_array[:, :, 1]) < 50)
+        
+        # EXCLUSION: Blue-dominated images (sky, water, etc.)
+        blue_mask = (img_array[:, :, 2] > img_array[:, :, 0] + 20) & \
+                   (img_array[:, :, 2] > img_array[:, :, 1] + 20)
+        
+        # EXCLUSION: Man-made objects (uniform colors)
+        uniform_mask = (np.std(img_array, axis=2) < 20)  # Low color variance
+        
         soil_pixels = np.sum(brown_mask | black_mask | red_soil_mask | yellow_soil_mask | gray_soil_mask)
+        skin_pixels = np.sum(skin_mask)
+        blue_pixels = np.sum(blue_mask)
+        uniform_pixels = np.sum(uniform_mask)
         total_pixels = height * width
+        
         soil_ratio = soil_pixels / total_pixels
+        skin_ratio = skin_pixels / total_pixels
+        blue_ratio = blue_pixels / total_pixels
+        uniform_ratio = uniform_pixels / total_pixels
         
         # Texture analysis - soil has characteristic texture patterns
         if len(img_array.shape) == 3:
@@ -286,10 +305,25 @@ def is_soil_image(image):
         texture_variance = np.var(gray)
         
         # Soil typically has moderate texture variance (not too smooth, not too busy)
-        has_soil_texture = 100 < texture_variance < 2000
+        has_soil_texture = 200 < texture_variance < 3000  # Narrowed range
         
-        # Combined criteria: sufficient soil-colored pixels AND soil-like texture
-        return soil_ratio > 0.4 and has_soil_texture
+        # Color diversity check - soil has natural color variations
+        color_diversity = np.std(img_array, axis=(0, 1))
+        has_natural_colors = np.mean(color_diversity) > 20
+        
+        # Combined criteria with exclusions:
+        # - Sufficient soil-colored pixels
+        # - Soil-like texture
+        # - Natural color variations
+        # - NOT skin-toned (faces)
+        # - NOT blue-dominated (sky/water)
+        # - NOT uniform (man-made objects)
+        return (soil_ratio > 0.4 and 
+                has_soil_texture and 
+                has_natural_colors and
+                skin_ratio < 0.1 and    # Exclude faces
+                blue_ratio < 0.2 and    # Exclude sky/water
+                uniform_ratio < 0.3)    # Exclude man-made objects
         
     except Exception as e:
         print(f"Soil detection error: {e}")

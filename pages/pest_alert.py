@@ -259,24 +259,35 @@ def is_field_image(image):
         
         height, width = img_array.shape[:2]
         
-        # Enhanced plant/field detection
-        # Look for green vegetation
-        green_pixels = np.sum((img_array[:, :, 1] > img_array[:, :, 0] + 10) & 
-                             (img_array[:, :, 1] > img_array[:, :, 2] + 10))
+        # Enhanced plant/field detection with better color analysis
+        # Look for green vegetation with proper thresholds
+        green_mask = (img_array[:, :, 1] > img_array[:, :, 0] + 15) & \
+                    (img_array[:, :, 1] > img_array[:, :, 2] + 15) & \
+                    (img_array[:, :, 1] > 60)  # Minimum green intensity
         
-        # Look for soil/brown areas (common in fields)
-        brown_pixels = np.sum((img_array[:, :, 0] > 80) & 
-                             (img_array[:, :, 1] > 60) & 
-                             (img_array[:, :, 2] < 120))
+        # Look for soil/brown areas but exclude skin tones
+        brown_mask = (img_array[:, :, 0] > 80) & \
+                    (img_array[:, :, 1] > 60) & \
+                    (img_array[:, :, 2] < 120) & \
+                    (np.abs(img_array[:, :, 0] - img_array[:, :, 1]) > 10)  # Exclude uniform colors (like skin)
+        
+        # Exclude skin tones specifically (human faces)
+        skin_mask = (img_array[:, :, 0] > 150) & \
+                   (img_array[:, :, 1] > 100) & \
+                   (img_array[:, :, 1] < 200) & \
+                   (img_array[:, :, 2] < 150) & \
+                   (np.abs(img_array[:, :, 0] - img_array[:, :, 1]) < 50)  # Skin has close R-G values
         
         total_pixels = height * width
-        green_ratio = green_pixels / total_pixels
-        brown_ratio = brown_pixels / total_pixels
+        green_ratio = np.sum(green_mask) / total_pixels
+        brown_ratio = np.sum(brown_mask) / total_pixels
+        skin_ratio = np.sum(skin_mask) / total_pixels
         
-        # Field typically has either significant green (crops) or mix of green+brown
-        has_vegetation = green_ratio > 0.15
-        has_soil = brown_ratio > 0.1
-        is_mixed_field = (green_ratio + brown_ratio) > 0.25
+        # Field typically has significant green vegetation
+        has_vegetation = green_ratio > 0.2
+        
+        # Or mixed field with soil but NOT skin-like
+        is_mixed_field = (green_ratio + brown_ratio) > 0.3 and skin_ratio < 0.1
         
         # Texture analysis - fields have natural texture patterns
         if len(img_array.shape) == 3:
@@ -284,16 +295,20 @@ def is_field_image(image):
         else:
             gray = img_array
             
-        from scipy import ndimage
-        sx = ndimage.sobel(gray, axis=0, mode='constant')
-        sy = ndimage.sobel(gray, axis=1, mode='constant')
-        sob = np.hypot(sx, sy)
-        edge_density = np.mean(sob > 30)
+        # Calculate texture variance
+        texture_variance = np.var(gray)
         
-        has_natural_texture = edge_density > 0.05  # Natural scenes have moderate edges
+        # Natural scenes have moderate to high texture variance
+        # Faces have more uniform texture
+        has_natural_texture = texture_variance > 500  # Higher threshold to exclude faces
         
-        # Combined criteria: looks like vegetation/field AND has natural texture
-        return (has_vegetation or is_mixed_field) and has_natural_texture
+        # Color diversity check - fields have diverse colors, faces are more uniform
+        color_diversity = np.std(img_array, axis=(0, 1))
+        has_color_diversity = np.mean(color_diversity) > 25
+        
+        # Combined criteria: looks like vegetation/field AND has natural texture AND diverse colors
+        # AND specifically excludes skin-toned images
+        return (has_vegetation or is_mixed_field) and has_natural_texture and has_color_diversity and (skin_ratio < 0.15)
         
     except Exception as e:
         print(f"Field detection error: {e}")

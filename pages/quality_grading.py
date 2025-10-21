@@ -252,40 +252,90 @@ def check_image_quality(image):
         return "Unable to process image quality."
 
 def is_crop_image(image):
-    """Enhanced check if uploaded image contains harvested crops"""
+    """Enhanced check if uploaded image contains harvested crops with better exclusion"""
     try:
         img_array = np.array(image)
         if len(img_array.shape) != 3:
             return False
         
-        # Check for typical crop colors and textures
         height, width = img_array.shape[:2]
         
-        # Look for crop-like colors (green, yellow, red, brown, orange)
-        green_mask = (img_array[:, :, 1] > img_array[:, :, 0]) & (img_array[:, :, 1] > img_array[:, :, 2])
-        yellow_mask = (img_array[:, :, 0] > 150) & (img_array[:, :, 1] > 150) & (img_array[:, :, 2] < 100)
-        red_mask = (img_array[:, :, 0] > 150) & (img_array[:, :, 1] < 100) & (img_array[:, :, 2] < 100)
-        brown_mask = (img_array[:, :, 0] > 100) & (img_array[:, :, 1] > 80) & (img_array[:, :, 2] < 100)
+        # Enhanced crop color detection with better thresholds
+        green_mask = (img_array[:, :, 1] > img_array[:, :, 0] + 15) & \
+                    (img_array[:, :, 1] > img_array[:, :, 2] + 15) & \
+                    (img_array[:, :, 1] > 60)  # Minimum green intensity
+        
+        yellow_mask = (img_array[:, :, 0] > 160) & \
+                     (img_array[:, :, 1] > 160) & \
+                     (img_array[:, :, 2] < 100)
+        
+        red_mask = (img_array[:, :, 0] > 150) & \
+                  (img_array[:, :, 1] < 100) & \
+                  (img_array[:, :, 2] < 100)
+        
+        brown_mask = (img_array[:, :, 0] > 100) & \
+                    (img_array[:, :, 1] > 80) & \
+                    (img_array[:, :, 2] < 120)
+        
+        # EXCLUSION: Skin tones (human faces)
+        skin_mask = (img_array[:, :, 0] > 150) & \
+                   (img_array[:, :, 1] > 100) & (img_array[:, :, 1] < 200) & \
+                   (img_array[:, :, 2] < 150) & \
+                   (np.abs(img_array[:, :, 0] - img_array[:, :, 1]) < 50)
+        
+        # EXCLUSION: Blue-dominated images (sky, water, etc.)
+        blue_mask = (img_array[:, :, 2] > img_array[:, :, 0] + 20) & \
+                   (img_array[:, :, 2] > img_array[:, :, 1] + 20)
+        
+        # EXCLUSION: Man-made objects (uniform colors, smooth textures)
+        uniform_mask = (np.std(img_array, axis=2) < 25)  # Low color variance
         
         crop_pixels = np.sum(green_mask | yellow_mask | red_mask | brown_mask)
+        skin_pixels = np.sum(skin_mask)
+        blue_pixels = np.sum(blue_mask)
+        uniform_pixels = np.sum(uniform_mask)
         total_pixels = height * width
-        crop_ratio = crop_pixels / total_pixels
         
-        # Also check for texture/edge density (crops have more edges than plain backgrounds)
+        crop_ratio = crop_pixels / total_pixels
+        skin_ratio = skin_pixels / total_pixels
+        blue_ratio = blue_pixels / total_pixels
+        uniform_ratio = uniform_pixels / total_pixels
+        
+        # Texture analysis - crops have natural texture patterns
         if len(img_array.shape) == 3:
             gray = np.mean(img_array, axis=2)
         else:
             gray = img_array
             
-        # Simple edge detection
-        from scipy import ndimage
+        # Check for crop-like texture (moderate to high variance)
+        texture_variance = np.var(gray)
+        has_crop_texture = 300 < texture_variance < 5000
+        
+        # Edge density - crops have more edges than smooth objects
         sx = ndimage.sobel(gray, axis=0, mode='constant')
         sy = ndimage.sobel(gray, axis=1, mode='constant')
         sob = np.hypot(sx, sy)
-        edge_density = np.mean(sob > 50)  # Threshold for significant edges
+        edge_density = np.mean(sob > 50)
+        has_adequate_edges = edge_density > 0.08
         
-        # Combined criteria: reasonable crop color ratio OR high edge density
-        return crop_ratio > 0.25 or edge_density > 0.1
+        # Color diversity check - crops have natural color variations
+        color_diversity = np.std(img_array, axis=(0, 1))
+        has_natural_colors = np.mean(color_diversity) > 25
+        
+        # Combined criteria with exclusions:
+        # - Reasonable crop color ratio OR adequate edge density
+        # - Crop-like texture
+        # - Natural color variations
+        # - NOT skin-toned (faces)
+        # - NOT blue-dominated (sky/water)
+        # - NOT uniform (man-made objects)
+        return ((crop_ratio > 0.25 or edge_density > 0.1) and 
+                has_crop_texture and 
+                has_natural_colors and
+                has_adequate_edges and
+                skin_ratio < 0.1 and    # Exclude faces
+                blue_ratio < 0.15 and   # Exclude sky/water  
+                uniform_ratio < 0.25)   # Exclude man-made objects
         
     except Exception as e:
         print(f"Crop detection error: {e}")

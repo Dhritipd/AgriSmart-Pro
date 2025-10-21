@@ -195,17 +195,73 @@ def disease_detection_page():
         prevention_guide_tab()
 
 def is_plant_image(image):
-    """Basic check if uploaded image contains plant/leaf"""
+    """Enhanced check if uploaded image contains plant/leaf with better exclusion"""
     try:
         img_array = np.array(image)
         if len(img_array.shape) != 3:
             return False
-        green_pixels = np.sum((img_array[:, :, 1] > img_array[:, :, 0]) & 
-                             (img_array[:, :, 1] > img_array[:, :, 2]))
-        total_pixels = img_array.shape[0] * img_array.shape[1]
+        
+        height, width = img_array.shape[:2]
+        
+        # Enhanced plant detection with better thresholds
+        green_mask = (img_array[:, :, 1] > img_array[:, :, 0] + 15) & \
+                    (img_array[:, :, 1] > img_array[:, :, 2] + 15) & \
+                    (img_array[:, :, 1] > 60)  # Minimum green intensity
+        
+        # EXCLUSION: Skin tones (human faces)
+        skin_mask = (img_array[:, :, 0] > 150) & \
+                   (img_array[:, :, 1] > 100) & (img_array[:, :, 1] < 200) & \
+                   (img_array[:, :, 2] < 150) & \
+                   (np.abs(img_array[:, :, 0] - img_array[:, :, 1]) < 50)
+        
+        # EXCLUSION: Blue-dominated images (sky, water, etc.)
+        blue_mask = (img_array[:, :, 2] > img_array[:, :, 0] + 20) & \
+                   (img_array[:, :, 2] > img_array[:, :, 1] + 20)
+        
+        # EXCLUSION: Man-made objects (uniform colors)
+        uniform_mask = (np.std(img_array, axis=2) < 25)  # Low color variance
+        
+        green_pixels = np.sum(green_mask)
+        skin_pixels = np.sum(skin_mask)
+        blue_pixels = np.sum(blue_mask)
+        uniform_pixels = np.sum(uniform_mask)
+        total_pixels = height * width
+        
         green_ratio = green_pixels / total_pixels
-        return green_ratio > 0.15
-    except:
+        skin_ratio = skin_pixels / total_pixels
+        blue_ratio = blue_pixels / total_pixels
+        uniform_ratio = uniform_pixels / total_pixels
+        
+        # Texture analysis - plants have natural texture patterns
+        if len(img_array.shape) == 3:
+            gray = np.mean(img_array, axis=2)
+        else:
+            gray = img_array
+            
+        # Check for plant-like texture (moderate to high variance)
+        texture_variance = np.var(gray)
+        has_plant_texture = 200 < texture_variance < 4000
+        
+        # Color diversity check - plants have natural color variations
+        color_diversity = np.std(img_array, axis=(0, 1))
+        has_natural_colors = np.mean(color_diversity) > 20
+        
+        # Combined criteria with exclusions:
+        # - Sufficient green pixels (plants)
+        # - Plant-like texture
+        # - Natural color variations
+        # - NOT skin-toned (faces)
+        # - NOT blue-dominated (sky/water)
+        # - NOT uniform (man-made objects)
+        return (green_ratio > 0.2 and 
+                has_plant_texture and 
+                has_natural_colors and
+                skin_ratio < 0.1 and    # Exclude faces
+                blue_ratio < 0.15 and   # Exclude sky/water  
+                uniform_ratio < 0.3)    # Exclude man-made objects
+        
+    except Exception as e:
+        print(f"Plant detection error: {e}")
         return False
 
 def check_image_quality(image):
